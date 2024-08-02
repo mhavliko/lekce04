@@ -19,4 +19,51 @@ nav {
 /* tady piš svoje CSS */
 /* -------------------------------------------- */
 
+.obsah {
+  display: flex;
+  height: 400px;
+}
 
+nav,
+.main {
+  flex-basis: 19%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main {
+  display: flex;
+  flex-grow: 3;
+}
+
+.articleaside {
+  display: flex;
+}
+
+header,
+footer {
+  flex-basis: 19%;
+}
+
+.articleaside {
+  display: flex;
+  flex-basis: 19%;
+  flex-grow: 3;
+}
+
+aside,
+article {
+  flex-basis: 22%;
+}
+
+article {
+  flex-grow: 3;
+}
+
+.text {
+  padding: 10px;
+}
+
+aside {
+  display: none;
+}

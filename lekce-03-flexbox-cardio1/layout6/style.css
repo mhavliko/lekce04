@@ -20,3 +20,28 @@ nav {
 /* -------------------------------------------- */
 
 
+body {
+  display: flex;
+  height: 400px;
+  flex-wrap: wrap;
+}
+
+header,
+footer {
+  flex-basis: 100%;
+}
+
+article {
+  flex-basis: 60%;
+  height: 200px;
+}
+
+nav,
+aside {
+  flex-basis: 20%;
+  
+}
+
+.text {
+  padding: 10px;
+}
